@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input value="Clica-me" onclick="alert('Olá Mundo')" type="button">
+    <input id="elem" type="button" value="Clica-me">
+    <input id="elem1" tyupe="button" value="Clica-me">
+    <input type="text" name="textInput" id="textInput">
+
+    <script>
+    elem.onclick=function(){
+        alert("Olé Mundo")
+    }
+
+    document.getElementById("elem1").addEventListener("click",function(){
+        alert("OláMundo")
+    })
+
+    
+    </script>
+</body>
+</html>
