@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="frmMovie">
+        <!--Titulo do Filme-->
+        <label for="txtMovieName">Título do Filme</label>
+        <input id="txtMovieName" type="text" required>
+        <br>
+        <!--Ano Filme-->
+        <label for="txtMovieYear">Ano do Filme</label>
+        <input id="txtMovieYear" type="number" required>
+        <br>
+        <!--Género do Filme-->
+        <label for="txtMovieGenre">Género do Filme</label>
+        <select id="txtMovieGenre">
+            <option value="acao">Ação</option>
+            <option value="aventura">Aventura</option>
+            <option value="comedia" selected>Comédia</option>
+            <option value="terror">Terror</option>
+            <option value="romance">Romance</option>
+            <option value="thriller">Thriller</option>
+            <option value="outro">Outro</option>
+        </select>
+        <br>
+        <!--Capa do Filme-->
+        <label for="txtMovieCover">Capa do Filme</label>
+        <input id="txtMovieCover" type="url" required>
+        <br>
+        <!--Trailer do FIlme-->
+        <label for="txtMovieTrailer">Trailer Do Filme</label>
+        <input id="txtMovieTrailer" type="url" required>
+        <br>
+        <!--Botões-->
+        <input type="submit" value="Submissão">
+        <input type="reset" value="Reposição">
+        <br>
+    </form>
+    <hr>
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Género</th>
+            <th>Opções</th>
+        </tr>
+    </table>
+
+
+
+
+
+    <script src="exercicio7.js"></script>
+</body>
+</html>
